@@ -1,10 +1,9 @@
-- 伺服器資訊
-    - [主分流/二分流](server/introduction.md)
-    - [更新資訊](server/news/update.md)
-    - [伺服器規則](server/rules.md)
-
-- 伺服器開發人員教學
-    - Minecraft 插件製作教學
+- Minecraft 插件製作教學
+    - 第一章
         - [1-0 前言](developer/plugins/1-0前言.md)
         - [1-1 環境架設](developer/plugins/1-1環境架設.md)
         - [1-2 第一支插件](developer/plugins/1-2第一支插件.md)
+    - 第二章
+        - [2-1 Java 基本語法](developer/plugins/2-1Java基本語法.md)
+        - [2-2 基礎指令](developer/plugins/2-2基礎指令.md)
+        - [2-3 基礎事件](developer/plugins/2-3基礎事件.md)

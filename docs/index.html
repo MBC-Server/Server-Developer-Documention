@@ -2,10 +2,10 @@
 <html lang="zh_tw">
 <head>
   <meta charset="UTF-8">
-  <title>合作社文檔</title>
+  <title>合作社 - 開發者文檔</title>
   <meta name="author" content="Smile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="合作社伺服器專屬的資訊網頁，由Smile架設&維護">
+  <meta name="description" content="專門寫給開發者的文檔，由Smile架設&維護">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"/>
   <link rel="stylesheet" href="themes/vue.css">
@@ -18,13 +18,13 @@
 </head>
 <body>
   <nav>
-    <a href="#/server/introduction">伺服器資訊</a>
-    <a href="#/developer/">開發人員教學</a>
+    <a href="https://mbc-server.github.io/Server-Documention/#/">伺服器資訊</a>
+    <a href="https://mbc-server.github.io/Server-Developer-Documention/#/">開發人員教學</a>
   </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '合作社',
+      name: '合作社開發者',
       nameLink: '/',
       themeColor: '#191970',
       loadSidebar: true,
@@ -35,7 +35,15 @@
       linkpreview: {
       key: "ddf9d9018b8f95a36ad47a612b08206e",
       },
-      search: 'auto', // default
+      search:{
+        noData: {
+          '/': '找不到結果',
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '搜尋',
+        },
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -43,7 +51,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
 </body>
 </html>
