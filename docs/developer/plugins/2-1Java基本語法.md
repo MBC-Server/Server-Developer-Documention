@@ -2,24 +2,25 @@
 
 首先，Java中有幾種基本變數類型，它們分別是：
 
-1. 整數
+1. 整數 (Integer)
 
 Java中的整數類型包括byte、short、int和long。它們的區別在於能夠儲存的範圍不同，例如byte類型可以儲存-128到127之間的數字，而long類型可以儲存更大的數字。
 
-2. 浮點數
+2. 浮點數/小數 (Float)
 
-Java中的浮點數類型包括float和double。它們用於儲存帶有小數部分的數字。double類型比float類型更精確，但也更佔空間。
+就是小數的意思，
+Java中的浮點數類型包括 float 和 double 。它們用於儲存帶有小數部分的數字。double類型比float類型更精確，但也更佔空間。
 
-3. 字符
+3. 字符 (Char) ~~(不是很重要，可以略過)~~
 
-Java中的字符類型是char，它用於儲存單個字符。例如：
+Java中的字母類型是char，它用於儲存單個字母。例如：
 
 ```java
 char c = 'A';
 ```
-4. 布林值
+4. 布林值 (Boolean)
 
-Java中的布爾類型是boolean，它用於儲存true或false這樣的布爾值。
+簡單來講，就是表達 是 或 否 的變數，它用於儲存true或false這樣的布林值。
 這些變數類型可以用於聲明變數。例如：
 
 ```java
@@ -33,7 +34,7 @@ boolean married = false;
 
 除了上述介紹的基本變數類型外，Java還有其他一些有用的變數類型，例如：
 
-5. 字串
+5. 字串 (String)
 
 Java中的字符串類型是String，它用於儲存文本。例如：
 
@@ -41,7 +42,7 @@ Java中的字符串類型是String，它用於儲存文本。例如：
 String name = "Alice";
 ```
 
-6. 陣列
+6. 陣列 (Array)
 
 Java中的數組類型可以用於儲存多個相同類型的數據。例如：
 
